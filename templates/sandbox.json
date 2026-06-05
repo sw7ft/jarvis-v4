@@ -1,0 +1,14 @@
+{
+  "type": "workspace_readwrite",
+  "additionalReadwritePaths": [
+    "~/.pyagent"
+  ],
+  "additionalReadonlyPaths": [
+    "~/.config/rocketchat",
+    "~/.config/mailinbox",
+    "{{jarvis_root}}/MASTER-CONTEXT.md"
+  ],
+  "networkPolicy": {
+    "default": "allow"
+  }
+}

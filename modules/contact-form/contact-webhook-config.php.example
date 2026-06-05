@@ -1,0 +1,14 @@
+<?php
+/**
+ * Rocket.Chat webhook config for contact form.
+ * Copy to contact-webhook-config.php and set your webhook URL.
+ *
+ * To create the webhook:
+ * 1. Rocket.Chat Admin → Integrations → New → Incoming Webhook
+ * 2. Name: Website Contact Form
+ * 3. Post to channel: #your_channel
+ * 4. Copy the webhook URL (e.g. https://chat.example.com/hooks/xxxxx/yyyyy)
+ */
+return [
+    'webhook_url' => 'https://chat.example.com/hooks/YOUR_WEBHOOK_ID/YOUR_TOKEN',
+];

@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets / per-agent injected apps (never commit production copies)
+agents/*/
+!agents/_example/
+agents/_example/apps/
+agents/_example/logs/*
+!agents/_example/logs/.gitkeep
+agents/_example/browser-profile/
+
+# Env and local config
+.env
+.env.*
+*.pem
+*.key
+contact-webhook-config.php
+!**/contact-webhook-config.php.example
+
+archive/*/
+!archive/.gitkeep
+
+# Local runtime state
+data/
+logs/
+*.log
+
+# Browser profiles
+**/browser-profile/
+
+# Credentials (stored outside repo by default)
+# ~/.config/rocketchat/config.json
+# ~/.config/mailinbox/config.json
+
+# macOS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp

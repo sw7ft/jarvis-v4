@@ -1,0 +1,11 @@
+# JARVIS v4 — Python dependencies
+# Install: pip install -r requirements.txt
+
+flask>=3.0
+flask-sock>=0.7
+
+# Rocket.Chat master-rocketchat.py uses httpx for API calls
+httpx>=0.27
+
+# Optional — only needed if you install the Browser app on agents
+# playwright>=1.40
