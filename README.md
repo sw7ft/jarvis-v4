@@ -113,7 +113,12 @@ your Rocket.Chat server (which you can self-host).
 
 ## Rocket.Chat — how it works
 
-Rocket.Chat is **the product interface**, not just notifications.
+Rocket.Chat is **the product interface**, not just notifications — one private channel per agent, on mobile, desktop, or web.
+
+<p align="center">
+  <img src="docs/images/rocketchat.png" alt="Rocket.Chat channel — operator messaging a JARVIS agent" width="480">
+</p>
+<p align="center"><sub>Each agent has its own channel (e.g. <code>#droidian.pixel3a</code>). You chat; the agent replies in the same room.</sub></p>
 
 | What | How |
 |------|-----|

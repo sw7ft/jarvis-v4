@@ -6,6 +6,11 @@ those messages, do work locally (or over SSH), and reply in the same room.
 This document explains exactly how that integration is wired, why it is designed
 this way, and how to set it up on your own RC server.
 
+<p align="center">
+  <img src="images/rocketchat.png" alt="Rocket.Chat — JARVIS agent channel" width="480">
+</p>
+<p align="center"><sub>The operator interface: post in the agent's channel from any Rocket.Chat client.</sub></p>
+
 ---
 
 ## Why Rocket.Chat?
