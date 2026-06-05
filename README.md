@@ -7,6 +7,11 @@ reply in the same room.
 
 > **Keywords:** Rocket.Chat · tmux · Cursor agent · SSH · multi-tenant ops · self-hosted · MacBook control plane
 
+<p align="center">
+  <img src="docs/images/dashboard.png" alt="JARVIS v4 dashboard — multi-agent fleet map with live tmux previews and Rocket.Chat status" width="920">
+</p>
+<p align="center"><sub><strong>JARVIS v4 dashboard</strong> (<code>python3 app.py</code> → <code>:5112</code>) — draggable agent cards, live pane preview, Rocket.Chat health, deploy, and in-browser tmux terminal.</sub></p>
+
 ---
 
 ## Documentation
